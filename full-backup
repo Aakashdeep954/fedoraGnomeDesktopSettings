@@ -1,0 +1,290 @@
+[org/gnome/control-center]
+last-panel='info-overview'
+
+[org/gnome/desktop/a11y/applications]
+screen-magnifier-enabled=false
+
+[org/gnome/desktop/a11y/keyboard]
+mousekeys-enable=false
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+primary-color='#3465a4'
+secondary-color='#000000'
+
+[org/gnome/desktop/input-sources]
+per-window=false
+sources=[('xkb', 'us')]
+
+[org/gnome/desktop/interface]
+document-font-name='JetBrains Mono Medium Italic 11'
+enable-hot-corners=false
+font-antialiasing='rgba'
+font-hinting='slight'
+font-name='JetBrains Mono Medium Italic 11'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Adwaita'
+icon-theme='Adwaita'
+monospace-font-name='JetBrains Mono Medium Italic 10'
+show-battery-percentage=true
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-software', 'gnome-power-panel', 'org-gnome-extensions-desktop', 'firefox', 'org-gnome-nautilus', 'spotify-spotify']
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-extensions-desktop]
+application-id='org.gnome.Extensions.desktop.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/spotify-spotify]
+application-id='spotify_spotify.desktop'
+
+[org/gnome/desktop/peripherals/mouse]
+accel-profile='default'
+
+[org/gnome/desktop/peripherals/touchpad]
+click-method='fingers'
+disable-while-typing=true
+speed=0.0073529411764705621
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+primary-color='#3465a4'
+secondary-color='#000000'
+
+[org/gnome/desktop/session]
+idle-delay=uint32 900
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+titlebar-font='JetBrains Mono Medium Italic 11'
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/gedit/plugins]
+active-plugins=['spell', 'sort', 'openlinks', 'modelines', 'filebrowser', 'docinfo']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/run_time_error_/Desktop/new1/javascript_the_definitive_book'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-password-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/mutter]
+overlay-key='Super_L'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(942, 550)
+maximized=true
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'org.gnome.Maps.desktop': <{'position': <3>}>, 'org.gnome.Photos.desktop': <{'position': <4>}>, 'org.gnome.Totem.desktop': <{'position': <5>}>, 'org.gnome.Calculator.desktop': <{'position': <6>}>, 'org.gnome.gedit.desktop': <{'position': <7>}>, 'org.gnome.Calendar.desktop': <{'position': <8>}>, 'simple-scan.desktop': <{'position': <9>}>, 'gnome-control-center.desktop': <{'position': <10>}>, 'gnome-system-monitor.desktop': <{'position': <11>}>, 'org.gnome.Extensions.desktop': <{'position': <12>}>, 'org.gnome.Boxes.desktop': <{'position': <13>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'org.gnome.gitg.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'libreoffice-calc.desktop': <{'position': <18>}>, 'org.gnome.Cheese.desktop': <{'position': <19>}>, 'libreoffice-impress.desktop': <{'position': <20>}>, 'libreoffice-writer.desktop': <{'position': <21>}>, 'plank.desktop': <{'position': <22>}>, 'rhythmbox.desktop': <{'position': <23>}>}, {'org.gnome.Tour.desktop': <{'position': <0>}>}]
+disabled-extensions=@as []
+enabled-extensions=['background-logo@fedorahosted.org', 'Vitals@CoreCoding.com', 'extension-list@tu.berry', 'dash-to-dock@micxgx.gmail.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'spotify_spotify.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Evince.desktop', 'google-chrome.desktop']
+welcome-dialog-last-shown-version='41.2'
+
+[org/gnome/shell/extensions/dash-to-dock]
+animate-show-apps=true
+background-opacity=0.80000000000000004
+click-action='skip'
+dash-max-icon-size=48
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+height-fraction=0.80000000000000004
+intellihide-mode='FOCUS_APPLICATION_WINDOWS'
+isolate-locations=true
+middle-click-action='launch'
+shift-click-action='minimize'
+shift-middle-click-action='launch'
+show-apps-at-top=false
+show-mounts=true
+show-trash=true
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+app-ctrl-hotkey-1=['1']
+app-ctrl-hotkey-10=['0']
+app-ctrl-hotkey-2=['2']
+app-ctrl-hotkey-3=['3']
+app-ctrl-hotkey-4=['4']
+app-ctrl-hotkey-5=['5']
+app-ctrl-hotkey-6=['6']
+app-ctrl-hotkey-7=['7']
+app-ctrl-hotkey-8=['8']
+app-ctrl-hotkey-9=['9']
+app-ctrl-hotkey-kp-1=['KP_1']
+app-ctrl-hotkey-kp-10=['KP_0']
+app-ctrl-hotkey-kp-2=['KP_2']
+app-ctrl-hotkey-kp-3=['KP_3']
+app-ctrl-hotkey-kp-4=['KP_4']
+app-ctrl-hotkey-kp-5=['KP_5']
+app-ctrl-hotkey-kp-6=['KP_6']
+app-ctrl-hotkey-kp-7=['KP_7']
+app-ctrl-hotkey-kp-8=['KP_8']
+app-ctrl-hotkey-kp-9=['KP_9']
+app-hotkey-1=['1']
+app-hotkey-10=['0']
+app-hotkey-2=['2']
+app-hotkey-3=['3']
+app-hotkey-4=['4']
+app-hotkey-5=['5']
+app-hotkey-6=['6']
+app-hotkey-7=['7']
+app-hotkey-8=['8']
+app-hotkey-9=['9']
+app-hotkey-kp-1=['KP_1']
+app-hotkey-kp-10=['KP_0']
+app-hotkey-kp-2=['KP_2']
+app-hotkey-kp-3=['KP_3']
+app-hotkey-kp-4=['KP_4']
+app-hotkey-kp-5=['KP_5']
+app-hotkey-kp-6=['KP_6']
+app-hotkey-kp-7=['KP_7']
+app-hotkey-kp-8=['KP_8']
+app-hotkey-kp-9=['KP_9']
+app-shift-hotkey-1=['1']
+app-shift-hotkey-10=['0']
+app-shift-hotkey-2=['2']
+app-shift-hotkey-3=['3']
+app-shift-hotkey-4=['4']
+app-shift-hotkey-5=['5']
+app-shift-hotkey-6=['6']
+app-shift-hotkey-7=['7']
+app-shift-hotkey-8=['8']
+app-shift-hotkey-9=['9']
+app-shift-hotkey-kp-1=['KP_1']
+app-shift-hotkey-kp-10=['KP_0']
+app-shift-hotkey-kp-2=['KP_2']
+app-shift-hotkey-kp-3=['KP_3']
+app-shift-hotkey-kp-4=['KP_4']
+app-shift-hotkey-kp-5=['KP_5']
+app-shift-hotkey-kp-6=['KP_6']
+app-shift-hotkey-kp-7=['KP_7']
+app-shift-hotkey-kp-8=['KP_8']
+app-shift-hotkey-kp-9=['KP_9']
+appicon-margin=8
+appicon-padding=4
+available-monitors=[0]
+hotkeys-overlay-combo='TEMPORARILY'
+leftbox-padding=-1
+panel-anchors='{"0":"MIDDLE"}'
+panel-element-positions='{"0":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{"0":100}'
+panel-sizes='{"0":48}'
+status-icon-padding=-1
+tray-padding=-1
+window-preview-title-position='TOP'
+
+[org/gnome/shell/extensions/user-theme]
+name=''
+
+[org/gnome/shell/extensions/vitals]
+hot-sensors=['__temperature_avg__', '_processor_frequency_']
+show-fan=false
+show-memory=false
+show-network=false
+show-storage=false
+show-system=false
+show-voltage=false
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+check-timestamp=int64 1639807103
+first-run=false
+install-timestamp=int64 1639814089
+online-updates-timestamp=int64 1639814002
+update-notification-timestamp=int64 1639814159
+
+[org/gnome/tweaks]
+show-extensions-notice=false
+
+[org/gtk/gtk4/settings/color-chooser]
+custom-colors=[(0.77138715982437134, 0.09566662460565567, 0.81999999284744263, 1.0), (0.77138715982437134, 0.095666669309139252, 0.81999999284744263, 1.0), (0.83921569585800171, 0.83921569585800171, 0.83921569585800171, 1.0)]
+selected-color=(true, 0.0, 0.0, 0.0, 1.0)
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=168
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(887, 328)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=219
+sort-column='name'
+sort-directories-first=false
+sort-order='descending'
+type-format='category'
+window-position=(345, 84)
+window-size=(1231, 902)
